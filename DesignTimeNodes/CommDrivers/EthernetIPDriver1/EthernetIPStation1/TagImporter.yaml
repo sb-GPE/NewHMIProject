@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: EthernetIPDriverTagImporter
+OwnerId: ns=2;g=023b3a2fdf2153b738be9ef7fabfbe33
+Children:
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/Administrator/Desktop/ROKLive2022/ROKLive2022/ProjectFiles/LogixCode/ROKLIVE_2022_ECHO_V33.ACD"
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []

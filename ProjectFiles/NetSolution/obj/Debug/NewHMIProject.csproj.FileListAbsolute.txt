@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\bin\NewHMIProject.deps.json
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\bin\NewHMIProject.dll
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\bin\NewHMIProject.pdb
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.dll
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\refint\NewHMIProject.dll
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\NewHMIProject.pdb
+C:\Users\Administrator\Documents\Rockwell Automation\FactoryTalk Optix\Projects\NewHMIProject\ProjectFiles\NetSolution\obj\Debug\ref\NewHMIProject.dll

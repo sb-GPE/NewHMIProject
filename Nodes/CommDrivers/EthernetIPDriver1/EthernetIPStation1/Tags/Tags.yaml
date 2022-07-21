@@ -1,0 +1,351 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Type: TagStructure
+  Children:
+  - Name: Aborted
+    Type: SFC_STEP1
+    Children:
+    - Name: Status
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.Status"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: X
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.X"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: FS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.FS"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: SA
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.SA"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: LS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.LS"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: DN
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.DN"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: OV
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.OV"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: AlarmEn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.AlarmEn"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: AlarmLow
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.AlarmLow"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: AlarmHigh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.AlarmHigh"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.Reset"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: PauseTimer
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.PauseTimer"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: PRE
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.PRE"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: T
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.T"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: TMax
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.TMax"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Count
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.Count"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: LimitLow
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.LimitLow"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: LimitHigh
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Aborted.LimitHigh"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384

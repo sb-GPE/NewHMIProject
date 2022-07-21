@@ -1,0 +1,397 @@
+Name: EthernetIPStation1
+Id: g=023b3a2fdf2153b738be9ef7fabfbe33
+Type: EthernetIPDriverStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 504
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.242.144"
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 44818
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: PhysicalAddressOptimization
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=8;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType
+  Children:
+  - Name: SFC_STEP1
+    Id: g=72200eaa8c172808d4909ec0b3b80b71
+    Supertype: TagStructure
+    Children:
+    - Name: Status
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Status"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: X
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "X"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: FS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FS"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: SA
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SA"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: LS
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LS"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: DN
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: OV
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OV"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: AlarmEn
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AlarmEn"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: AlarmLow
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AlarmLow"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: AlarmHigh
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AlarmHigh"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Reset
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reset"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: PauseTimer
+      Type: EthernetIPDriverTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PauseTimer"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: PRE
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: T
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "T"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: TMax
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TMax"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: Count
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Count"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: LimitLow
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LimitLow"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
+    - Name: LimitHigh
+      Type: EthernetIPDriverTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LimitHigh"
+      - Name: Quality
+        Type: BaseDataVariableType
+        DataType: ns=8;Quality
+        AccessLevel: Read
+        Value: 0
+      - Name: OperationCode
+        Type: BaseDataVariableType
+        DataType: TagOperationCode
+        AccessLevel: Read
+        Value: -2144272384
